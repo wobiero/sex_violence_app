@@ -43,7 +43,7 @@ from scipy.stats import ttest_rel
 import pmdarima as pm
 from pmdarima import auto_arima
 
-st.markdown("# Application Title TBD")
+st.markdown("# SGBV Rapid Trend Analysis Tool")
 
 about_tool = """
    This tool is intended for quick and ready time series analyses.
@@ -62,6 +62,8 @@ about_tool = """
    The tool is coded in Python v3.7.0. It would be great to cite Python in your work.
 
    The technical notes are included for your convenience in interpreting the findings.
+   
+   If you have any questions or need help with the tool, contact us on: ocu9@cdc.gov
     """
 st.markdown("#### Read the following section before using the tool")
 start = st.expander("ReadMe")
