@@ -253,15 +253,9 @@ if st.sidebar.checkbox("Technical checks"):
     expander_note = st.expander("Technical notes")
     expander_note.write(technical_note)
 
-    col1, col2 = st.columns(2)
-    img1 = Image.open("time_series_technical.jpg")
-    img2 = Image.open("technical_issues_2.jpg")
-    col1.image(img1, use_column_width=True)
-    col2.image(img2, use_column_width=True)
-
     if st.checkbox('Time series technical issues'):
         st.subheader('Time series explanatory technical graph')
-        img1 = Image.open("/Users/wobiero/Desktop/Sex violence/time_series_technical.jpg")
+        img1 = Image.open("time_series_technical.jpg")
         st.image(img1, caption="Time series technical issues")
 
     df["6-month-MA"]= df[outcome].rolling(window=6).mean()
