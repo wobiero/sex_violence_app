@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+
 import streamlit as st
 from streamlit_disqus import st_disqus
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ from scipy.stats import ttest_rel
 
 import pmdarima as pm
 from pmdarima import auto_arima
-
+import numpy as np
 st.markdown("# SGBV Rapid Trend Analysis Tool")
 
 about_tool = """
