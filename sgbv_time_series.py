@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from streamlit_disqus import st_disqus
 import matplotlib.pyplot as plt
-import jsonschema as js
+#import jsonschema as js
 import altair as alt
 import seaborn as sns
 
@@ -13,16 +13,16 @@ import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 from causalimpact import CausalImpact
-from openpyxl import load_workbook
-import datetime
-from datetime import datetime, date, time
-from dateutil.relativedelta import relativedelta
+#from openpyxl import load_workbook
+#import datetime
+#from datetime import datetime, date, time
+#from dateutil.relativedelta import relativedelta
 import calendar
 
-import os
+#import os
 import os.path
-from io import StringIO, BytesIO
-import base64
+#from io import StringIO, BytesIO
+#import base64
 from PIL import Image
 
 import ruptures as rpt #for changepoint detection
@@ -33,14 +33,14 @@ from statsmodels.tsa.statespace.tools import diff
 from statsmodels.tsa.holtwinters import SimpleExpSmoothing, ExponentialSmoothing
 from statsmodels.tsa.stattools import acf, acovf, pacf, pacf_ols, pacf_yw, adfuller, kpss
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.stattools import adfuller
-from pandas.plotting import lag_plot
+#from statsmodels.tsa.stattools import adfuller
+#from pandas.plotting import lag_plot
 from statsmodels.tsa.seasonal import seasonal_decompose
-from sklearn.metrics import mean_absolute_error, mean_squared_error
-from sklearn.model_selection import train_test_split
+#from sklearn.metrics import mean_absolute_error, mean_squared_error
+#from sklearn.model_selection import train_test_split
 from scipy.stats import ttest_rel
 
-import pmdarima as pm
+#import pmdarima as pm
 from pmdarima import auto_arima
 import numpy as np
 st.markdown("# SGBV Rapid Trend Analysis Tool")
